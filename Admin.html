@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+<title>Northumbria Toy Company - Credits</title> 
+</head>
+<body>
+<link href="CSS.css" rel="stylesheet">
+<div class="gridContainer">
+    <header>
+        <h1>Northumbria Toy Company Admin Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li> 
+			<li><a href="Toys.php">View Toys</a></li> 
+			<li><a href="Admin.html">Admin</a></li> 
+			<li><a href="Credits.html">Credits</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="adminform.php" method="POST">
+            <h1>Want to add a toy? Enter a the toy details down below!</h1>
+            <fieldset>
+                <legend>About the toy</legend>
+                <p><span class="error">* required field</span></p>
+                <label>Toy Name
+                    <input type="text" name="ToyName">
+                    <span class="error">* </span>
+                    <br><br>
+                </label>
+                <label>Description
+                    <input type="text" name="Description">
+                    <span class="error">* </span>
+                    <br><br>
+                </label>
+                <label>Price
+                    <input type="text" name="Price">
+                    <span class="error">* </span>
+                    <br><br>
+                </label>
+                <label>Toy Category
+                    <select name="ToyCategory">
+                        <option value="1">Model Trains & Railway Sets</option>
+                        <option value="2">Model Fancy Dress</option>
+                        <option value="3">Slot Cars, Race Tracks & Accessories</option>
+                        <option value="4">Musical Toy Instruments</option>
+                        <option value="5">Trading Cards & Accessories</option>
+                        <option value="6">Puppets & Puppet Theatres</option>
+                        <option value="7">Pretend Play</option>
+                        <option value="8">Games</option>
+                        <option value="9">Arts & Crafts</option>
+                        <option value="10">Characters & Brands</option>
+                        <option value="11">Figures & Playsets</option>
+                        <option value="12">Home Accessories</option>
+                        <option value="13">Die-Cast & Toy Vehicles</option>
+                        <option value="14">Model Building Kits</option>
+                        <option value="15">Collectible Figures & Memorabilia</option>
+                    </select>
+                    <label>Toy Manufacturer
+                        <select name="ToyManufacturer">
+                            <option value="1">Alfa Romeo</option>
+                            <option value="2">Cheatwell Games</option>
+                            <option value="3">Classix</option>
+                            <option value="4">Comic Maker</option>
+                            <option value="5">Corgi</option>
+                            <option value="6">DC Collectibles</option>
+                            <option value="7">Deckboosters</option>
+                            <option value="8">Disney</option>
+                            <option value="9">Frozen</option>
+                            <option value="10">Funko</option>
+                            <option value="11">FunkyBuys</option>
+                            <option value="12">Arcane Wonders</option>
+                            <option value="13">Games Workshop</option>
+                            <option value="14">Gibsons Games</option>
+                            <option value="15">Greater Than Games</option>
+                            <option value="16">Guaranteed4Less</option>
+                            <option value="17">Hasbro</option>
+                            <option value="18">Hornby</option>
+                            <option value="19">Hot Wheels</option>
+                            <option value="20">Kaiyodo</option>
+                            <option value="21">Kato</option>
+                            <option value="22">King Horse</option>
+                            <option value="23">Bachmann</option>
+                            <option value="24">Learning Curve</option>
+                            <option value="25">Legion Supplies</option>
+                        </select>
+            <input type="submit" value="Send it!">
+       </form>
+       
+    </main>
+    <footer>
+		<p>Contact us at: 07958538492</p>
+        <p>Northumbria Toy Company &copy; 2022</p>
+            </footer>
+        </div>
+    
+</body> 
+</html>

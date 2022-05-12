@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-rows: 100px 6250px 300px;
+    grid-template-columns: 180px 1fr;
+    grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+  }
+  
+  header {
+    grid-area: header;
+    background-color: cyan;
+    }
+    nav {
+      background-color: rgb(236, 231, 231);
+        grid-area: nav;
+        
+    }
+    main {
+      background-color: rgb(236, 231, 231);
+        grid-area: main;
+        text-align: justify;
+        font-size: 1vw;
+        display: inline-block;
+        width: 100%;
+        list-style-position: outside;
+    }
+  
+    footer{
+      background-color: cyan;
+      grid-area: footer;
+      color: black;
+    }
+    
+    
+    p {
+      
+      font-size: 20px;
+    }
+  
+  
+  nav li a:link, a:visited  { 
+    display: block; 
+     text-decoration: none; 
+  }
+  
+  
+    nav li a:hover { 
+      background-color: cyan; 
+      color: #FFFFFF; 
+  }
+    
